@@ -31,3 +31,5 @@ Please notice that this is prompt_toolkit 2.0. It is incompatible with the
 %files
 %license LICENSE
 %doc README.rst
+%{python_sitelib}/prompt_toolkit-%{version}.dist-info
+%{python_sitelib}/prompt_toolkit

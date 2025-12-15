@@ -14,6 +14,7 @@ Source0:        https://files.pythonhosted.org/packages/source/p/prompt_toolkit/
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python%{pyver}dist(setuptools)
 %if %{with tests}
 BuildRequires:  python3dist(pytest)
 %endif

@@ -5,7 +5,7 @@
 
 Name:           python-%{pypi_name}
 Version:        3.0.52
-Release:        1
+Release:        2
 Summary:        Library for building powerful interactive command lines in Python
 Group:          Development/Python
 License:        BSD-3-Clause
@@ -19,6 +19,8 @@ BuildRequires:  python%{pyver}dist(setuptools)
 BuildRequires:  python3dist(pytest)
 %endif
 BuildSystem:    python
+
+Provides: python%{pyver}dist(prompt_toolkit) = %{version}-%{release}
 
 %description
 Python Prompt Toolkit is a library for building powerful interactive command

@@ -4,8 +4,8 @@
 %bcond_without tests
 
 Name:           python-%{pypi_name}
-Version:        3.0.52
-Release:        2
+Version:        3.0.53
+Release:        1
 Summary:        Library for building powerful interactive command lines in Python
 Group:          Development/Python
 License:        BSD-3-Clause
